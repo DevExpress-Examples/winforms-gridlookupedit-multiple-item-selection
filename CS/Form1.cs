@@ -26,13 +26,14 @@ namespace TestGridLookUpEditCSV {
             popupControl.Controls.Add(popupGridControl1);
             popupControl.Size = new System.Drawing.Size(500, 300);
             ri.PopupControl = popupControl;
+
+            gridControl2.RepositoryItems.Add(ri);
             gridView1.Columns["Name"].ColumnEdit = ri;
 
             popupContainerEdit1.Properties.PopupControl = popupContainerControl1;
             popupContainerEdit1.Properties.QueryResultValue += Properties_QueryResultValue;
             popupContainerEdit1.Properties.EditValueChanged += Properties_EditValueChanged;
             popupContainerEdit1.Properties.Popup += Properties_Popup;
-
         }
 
         void Properties_Popup(object sender, EventArgs e) {
@@ -104,8 +105,6 @@ namespace TestGridLookUpEditCSV {
             return selection;
         }
 
-
-
         private void InitGrid() {
             popupGridControl1.DataSource = CreateList(5);
             gridControl2.DataSource = CreateList(5);
@@ -119,6 +118,5 @@ namespace TestGridLookUpEditCSV {
             }
             return list;
         }
-
     }
 }
