@@ -11,6 +11,8 @@ This example implements a Grid Lookup editor that allows you to select multiple 
 
 The Grid Lookup editor's value is a string in CSV format. You can type comma-separated values (for instance, "Name0, Name2, Name4") in the editor's text box to select corresponding rows in the popup. And vice versa, when you select rows in the popup and close it, the selected row values are displayed in the edit box as a comma-separated string.
 
+## Please note that LookUpEdit supports the Multiple Item Selection function in <b>v.23.1+<b/>. 
+Please refer to the following help topic for more information: [Enable Multiple Item Selection](https://docs.devexpress.com/WindowsForms/116008/controls-and-libraries/editors-and-simple-controls/lookup-editors#enable-multiple-item-selection).
 
 <!-- default file list -->
 ## Files to Look At
