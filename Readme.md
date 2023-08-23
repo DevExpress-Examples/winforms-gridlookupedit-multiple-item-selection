@@ -5,17 +5,20 @@
 <!-- default badges end -->
 
 
-# Grid LookUp for Windows Forms - How to select multiple items in a Grid Lookup control
+# WinForms Grid Lookup - How to select multiple items
 
-This example implements a Grid Lookup editor that allows you to select multiple values (rows) in its dropdown window. The Grid Lookup editor is implemented based on a [PopupContainerEdit](https://docs.devexpress.com/WindowsForms/DevExpress.XtraEditors.PopupContainerEdit) control that displays a [GridControl](https://docs.devexpress.com/WindowsForms/DevExpress.XtraGrid.GridControl) inside the editor's dropdown window. 
+The WinForms `GridLookUpEdit` control does not support multiple item selection ot of the box. This example demonstrates how to implement a "custom" Grid Lookup editor that allows users to select multiple values (rows) in its dropdown window.
 
-The Grid Lookup editor's value is a string in CSV format. You can type comma-separated values (for instance, "Name0, Name2, Name4") in the editor's text box to select corresponding rows in the popup. And vice versa, when you select rows in the popup and close it, the selected row values are displayed in the edit box as a comma-separated string.
+The Grid Lookup editor is implemented based on a [PopupContainerEdit](https://docs.devexpress.com/WindowsForms/DevExpress.XtraEditors.PopupContainerEdit) control that displays a [GridControl](https://docs.devexpress.com/WindowsForms/DevExpress.XtraGrid.GridControl) in the dropdown window. 
 
-## Please note that LookUpEdit supports the Multiple Item Selection function in <b>v.23.1+<b/>. 
-Please refer to the following help topic for more information: [Enable Multiple Item Selection](https://docs.devexpress.com/WindowsForms/116008/controls-and-libraries/editors-and-simple-controls/lookup-editors#enable-multiple-item-selection).
+The Grid Lookup editor's value is a string in CSV format. You can type comma-separated values (for example, "Name0, Name2, Name4") in the edit box to select corresponding rows in the dropdown. Users can also select rows in the dropdown. When the dropdown is closed, the Grid Lookup editor displays selected row values in the edit box.
+
+## WinForms LookUpEdit <b>v.23.1+<b/> Supports Multiple Item Selection
+
+Read the following help topic for more information and examples: [LookUpEdit - Enable Multiple Item Selection](https://docs.devexpress.com/WindowsForms/116008/controls-and-libraries/editors-and-simple-controls/lookup-editors#enable-multiple-item-selection).
 
 <!-- default file list -->
-## Files to Look At
+## Files to Review
 * [Customer.cs](./CS/Customer.cs) (VB: [Customer.vb](./VB/Customer.vb))
 * [Form1.cs](./CS/Form1.cs) (VB: [Form1.vb](./VB/Form1.vb))
 * [Program.cs](./CS/Program.cs) (VB: [Program.vb](./VB/Program.vb))
@@ -24,6 +27,7 @@ Please refer to the following help topic for more information: [Enable Multiple 
 ## Documentation
 - [PopupContainerEdit](https://docs.devexpress.com/WindowsForms/DevExpress.XtraEditors.PopupContainerEdit)
 - [GridControl](https://docs.devexpress.com/WindowsForms/DevExpress.XtraGrid.GridControl)
+- [DevExpress Lookup Editors for WinForms](https://docs.devexpress.com/WindowsForms/116008/controls-and-libraries/editors-and-simple-controls/lookup-editors)
 
 ## See Also
 - [DevExpress WinForms Troubleshooting - LookUp Editors](https://go.devexpress.com/CheatSheets_WinForms_Examples_T929986.aspx)
