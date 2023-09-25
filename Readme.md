@@ -4,7 +4,6 @@
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
 
-
 # WinForms Grid Lookup - How to select multiple items
 
 The WinForms `GridLookUpEdit` control does not support multiple item selection ot of the box. This example demonstrates how to implement a "custom" Grid Lookup editor that allows users to select multiple values (rows) in its dropdown window.
@@ -17,21 +16,18 @@ The Grid Lookup editor's value is a string in CSV format. You can type comma-sep
 
 Read the following help topic for more information and examples: [LookUpEdit - Enable Multiple Item Selection](https://docs.devexpress.com/WindowsForms/116008/controls-and-libraries/editors-and-simple-controls/lookup-editors#enable-multiple-item-selection).
 
-<!-- default file list -->
 ## Files to Review
+
 * [Customer.cs](./CS/Customer.cs) (VB: [Customer.vb](./VB/Customer.vb))
 * [Form1.cs](./CS/Form1.cs) (VB: [Form1.vb](./VB/Form1.vb))
 * [Program.cs](./CS/Program.cs) (VB: [Program.vb](./VB/Program.vb))
-<!-- default file list end -->
 
 ## Documentation
-- [PopupContainerEdit](https://docs.devexpress.com/WindowsForms/DevExpress.XtraEditors.PopupContainerEdit)
-- [GridControl](https://docs.devexpress.com/WindowsForms/DevExpress.XtraGrid.GridControl)
-- [DevExpress Lookup Editors for WinForms](https://docs.devexpress.com/WindowsForms/116008/controls-and-libraries/editors-and-simple-controls/lookup-editors)
+
+* [PopupContainerEdit](https://docs.devexpress.com/WindowsForms/DevExpress.XtraEditors.PopupContainerEdit)
+* [GridControl](https://docs.devexpress.com/WindowsForms/DevExpress.XtraGrid.GridControl)
+* [DevExpress Lookup Editors for WinForms](https://docs.devexpress.com/WindowsForms/116008/controls-and-libraries/editors-and-simple-controls/lookup-editors)
 
 ## See Also
-- [DevExpress WinForms Troubleshooting - LookUp Editors](https://go.devexpress.com/CheatSheets_WinForms_Examples_T929986.aspx)
 
-<br/>
-
-
+* [DevExpress WinForms Troubleshooting - LookUp Editors](https://go.devexpress.com/CheatSheets_WinForms_Examples_T929986.aspx)
